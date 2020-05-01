@@ -28,6 +28,7 @@ public $selectors = [];
 public $inv = []; 
 public $setters = []; 
 public $economy; 
+  
 public function onEnable(): void{ 
 $this->initConfig(); 
 $this->registerEconomy(); 
