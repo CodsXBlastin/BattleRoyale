@@ -232,7 +232,7 @@ $this->getPlayerArena($sender)->leaveArena($sender);
 break; 
 case "start": 
 if(!$sender->hasPermission('br.command.start')){ 
-$sender->sendMessage($this->plugin->getMsg('has_not_permission')); 
+$sender->sendMessage($this->getMsg('has_not_permission')); 
 break; 
 }
 if(isset($args[2])){ 
