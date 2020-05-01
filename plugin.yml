@@ -1,0 +1,48 @@
+name: BattleRoyale
+version: 1.0.0
+api: [3.0.0]
+main: BattleRoyale\Main
+author: THXC, xvqle
+commands:
+    br:
+       description: "BattleRoyale commands!"
+
+permissions:
+br.plugin:
+description: "Main permission of BattleRoyale!"
+default: op
+children:
+br.command:
+description: "Main permission commands!"
+default: op
+children:
+br.command.help:
+description: "BattleRoyale commands help permission!"
+default: true
+br.command.join:
+description: "Join the BattleRoyale arena permission!"
+default: true
+br.command.leave:
+description: "Leave the BattleRoyale arena permission!"
+default: true
+br.command.start:
+description: "Start the BattleRoyale game!"
+default: op
+br.command.stop:
+description: "Stop the BattleRoyale game!"
+default: op
+br.command.kick:
+description: "Kick player from the BattleRoyale arena!"
+default: op
+br.command.lobby:
+description: "Send player to BattleRoyale lobby!"
+default: true
+br.command.set:
+description: "Allow OP player to edit the arena!"
+default: op
+br.sign:
+description: "Join the BattleRoyale arena using signs!"
+default: true
+br.access:
+description: "Allow player to play the BattleRoyale game!"
+default: true
