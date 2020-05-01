@@ -1,0 +1,94 @@
+##### ## ####
+# Battlegrounds Configurations
+# Made by THXC
+# "default.yml" file
+##### ## ####
+---
+##### ## ####
+# Set it "false" will make arena won't load.
+##### ## ####
+enabled: "false"
+
+##### ## ####
+# Signs on Config
+##### ## ####
+signs:
+    join_sign_x: 89
+    join_sign_y: 78
+    join_sign_z: -487
+    join_sign_world: "world"
+    # Sign Status #
+    enable_status: "true"
+    
+    # Status Lines #
+    #  Variables:
+    #   %alive = Amount of in-game players
+    #   %dead = Amount of dead players
+    #   %status = Game status
+    #   %max = Max players per arena
+    status_line_1: "&b[Battlegrounds]"
+    status_line_2: "&a%alive &4/ &a%max"
+    status_line_3: "%status"
+    status_line_4: "Arena 1"
+    
+    # Update signs every seconds #
+    sign_update_time: 2
+    
+    # Return to main lobby! #
+    # But it's same on world you there! #
+    return_sign_x: 566
+    return_sign_y: 57
+    return_sign_z: 890
+    
+##### ## ####
+# Arena On Config
+##### ## ####
+arena:
+    arena_world: "Battlegrounds"
+    
+    # Arena World Positions #
+    join_position_x: 320
+    join_position_y: 40
+    join_position_z: 32
+    
+    # Pre-Game Lobby #
+    lobby_position_x: 344
+    lobby_position_y: 102
+    lobby_position_z: -982
+    lobby_position_world: "world"
+    
+    # Floor #
+    floor_y: 50
+    
+    # Set it "true" to spectate a alive players #
+    spectator_mode: "true"
+ 
+   # Spectate Spawn Position #
+    spec_spawn_x: 320
+    spec_spawn_y: 50
+    spec_spawn_z: 32
+   
+ # Leave Position #
+    leave_position_x: 3455
+    leave_position_y: 34
+    leave_position_z: 450
+    leave_position_world: "world"
+    
+    # Arena Timer (seconds) #
+    max_game_time: 600
+   
+    # Maximum players per Arena #
+    max_players: 24
+    
+    # Minumum players per Arena to start #
+    min_players: 5
+    
+    # Arena Starting Timer #
+    starting_time: 15
+    
+    # Arena Finish Messages #
+    finish_msg_levels: "world"
+    
+    # Enable the time cycle! - true / day / night / [ticks] #
+    # Recommend "night" to make it epic :) #
+    time: "day"

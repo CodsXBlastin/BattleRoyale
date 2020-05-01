@@ -1,0 +1,21 @@
+##### ## ####
+# Battlegrounds Configurations
+# Made by THXC
+# Version: BG-1.1
+##### ## ####
+---
+
+##### ## ####
+# Language & Prefix
+##### ## ####
+Language: "English"
+Prefix: "&9[&cBG&9] "
+
+##### ## ####
+# Waiting Lobby In-Game World Location
+##### ## ####
+lobby:
+    x: 1
+    y: 1
+    z: 1
+    world: world
