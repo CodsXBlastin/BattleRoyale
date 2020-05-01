@@ -255,7 +255,7 @@ $this->getPlayerArena($sender)->startGame();
 break; 
 case "stop": 
 if(!$sender->hasPermission('br.command.stop')){ 
-$sender->sendMessage($this->plugin->getMsg('has_not_permission')); 
+$sender->sendMessage($this->getPrefix().$this->getMsg('has_not_permission')); 
 break; 
 } 
 if(isset($args[2])){ 
@@ -361,7 +361,7 @@ foreach($this->inv as $slot => $i){
 list($id, $dmg, $count) = explode(":", $i); 
 $item = Item::get($id, $dmg, $count); 
 $p->getInventory()->setItem($slot, $item); 
-unset($this->plugin->inv[strtolower($p->getName())]); 
+unset($this->inv[strtolower($p->getName())]); 
 } 
 } 
 } 
