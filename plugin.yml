@@ -2,7 +2,7 @@ name: BattleRoyale
 version: 1.0.0
 api: [3.0.0]
 main: BattleRoyale\Main
-author: THXC, xvqle
+author: THXC
 commands:
     br:
        description: "BattleRoyale commands!"
